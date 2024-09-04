@@ -54,7 +54,7 @@ public class QuizCardBuilder {
 		JMenu fileMenu = new JMenu("File");
 		JMenuItem newMenuItem = new JMenuItem("New");
 		JMenuItem saveMenuItem = new JMenuItem("Save");
-		newMenuItem.addActionListener(new MenuListener());
+		newMenuItem.addActionListener(new NewMenuListener());
 
 		saveMenuItem.addActionListener(new SaveMenuListener());
 		fileMenu.add(newMenuItem);
